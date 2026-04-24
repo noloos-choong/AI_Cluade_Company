@@ -1,0 +1,10 @@
+agents:
+  - name: planner
+    role: plan
+    output_format: markdown
+  - name: researcher
+    role: verify
+    output_format: markdown
+  - name: executor
+    role: implement
+    output_format: markdown
